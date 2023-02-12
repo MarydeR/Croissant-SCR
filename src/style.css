@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #4c2f18;
+  --tertiary-color: #d3a37e;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: var(--tertiary-color);
+}
+
+h1,
+p {
+  text-align: center;
+}
+.main {
+  margin-top: 50px;
+}
+.links {
+  text-align: center;
+  margin: 20px;
+}
+.links a {
+  margin: 15px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.links a:visited {
+  color: var(--primary-color);
+}
+
+.croissantmainpic {
+  display: block;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#emaillink {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--primary-color);
+}
